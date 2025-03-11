@@ -4,6 +4,11 @@ IMPORTANT: This document is written in 2 languages, but the app itself ONLY supp
 HoYoLABブラウザ版向けの投稿統計用ブックマークレットです。<br>
 post detail tablizer bookmarklet for hoyolab browser.
 
+- [使い方 How to Use](#使い方-how-to-use)
+- [注意 Caution](#注意-caution)
+- [開発者向け](#開発者向け-for-developers)
+
+
 ## 使い方 HOW TO USE
 `lab-bml.min.js` をダウンロードし、ブックマークレットとして登録しLABで使用します。<br>
 Download `lab-bml.min.js` and register as bookmarklet, then apply it on LAB.
@@ -23,3 +28,7 @@ Since such use is not expected, no special handling will be done for 429 errors.
 
 このツールを使用したことに関して発生するいかなる直接的または間接的な存在について、開発者は責任を負いません。<br>
 We are not responsible for any direct or indirect damages arising from the use of this tool.
+
+## 開発者向け FOR DEVELOPERS
+`lab-bml.js`は`uglify-js`を通す前のコードです。公開する質ではなく、単に作業中のファイルをアップロードしただけですが、プルリクを出すにはこのファイルの方がいいと思います。
+`lab-bml.js` is the original source before being minified. It's not a pretty file, I just uploaded the file I'm working on, but this file will be better for sending pull requests.
