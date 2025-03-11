@@ -30,5 +30,5 @@ Since such use is not expected, no special handling will be done for 429 errors.
 We are not responsible for any direct or indirect damages arising from the use of this tool.
 
 ## 開発者向け FOR DEVELOPERS
-`lab-bml.js`は`uglify-js`を通す前のコードです。公開する質ではなく、単に作業中のファイルをアップロードしただけですが、プルリクを出すにはこのファイルの方がいいと思います。
+`lab-bml.js`は`uglify-js`を通す前のコードです。公開する質ではなく、単に作業中のファイルをアップロードしただけですが、プルリクを出すにはこのファイルの方がいいと思います。<br>
 `lab-bml.js` is the original source before being minified. It's not a pretty file, I just uploaded the file I'm working on, but this file will be better for sending pull requests.
